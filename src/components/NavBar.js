@@ -2,8 +2,16 @@ import React from "react";
 
 function NavBar() {
   return (
-    <nav>
-      <a href="#home">I'm a link!</a>
+    <div id="home">
+   <nav>    
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
     </nav>
+    <h1>
+        {"Liza"} is a Web Developer from {"New York"}
+      </h1>
+    </div>
   );
 }
+
+export default NavBar
